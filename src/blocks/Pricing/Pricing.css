@@ -1,0 +1,36 @@
+.Pricing {
+  padding: 50px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Pricing__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.Pricing__item + .Pricing__item {
+  margin-left: 20px;
+}
+
+.Pricing__title {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+
+  .Pricing__list {
+    overflow-x: scroll;
+    justify-content: left;
+  }
+
+  .Pricing__item:first-of-type {
+    padding-left: 20px;
+  }
+
+  .Pricing__item:last-of-type {
+    padding-right: 20px;
+  }
+}

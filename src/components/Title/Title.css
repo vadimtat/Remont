@@ -1,0 +1,30 @@
+.Title {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 28px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.Title:after {
+  content: "";
+  width: 68px;
+  height: 4px;
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.Title_color_black {
+  color:black;
+
+}
+
+.Title_color_black:after {
+  background: black;
+}

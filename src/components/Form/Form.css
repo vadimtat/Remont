@@ -1,0 +1,49 @@
+.Form {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding-bottom: 30px;
+  padding-top: 2px;
+}
+
+.Form__form {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.Form__input {
+  display: block;
+  background: transparent;
+  height: 42px;
+  border: 1px solid #999999;
+  margin: 20px 0;
+  color: lightgrey;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.Form__textarea {
+  width: 100%;
+  display: block;
+  background: transparent;
+  height: 84px;
+  color: lightgrey;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #999999;
+}
+
+@media (max-width: 768px) {
+
+  .Form {
+    padding: 10px 20px 30px;
+  }
+
+  .Form__form {
+    max-width: calc(100vw - 40px);
+  }
+}

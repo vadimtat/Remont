@@ -1,0 +1,49 @@
+.Customer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.Customer__line1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+
+.Customer__line2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  letter-spacing: .05em;
+  display: block;
+}
+
+.Customer__line3 {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  display: block;
+}
+@media (max-width: 768px) {
+
+  .Customer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .Customer__line1 {
+    font-size: 20px;
+  }
+
+  .Customer__line2 {
+    font-size: 28px;
+  }
+}

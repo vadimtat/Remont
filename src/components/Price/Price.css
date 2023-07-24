@@ -1,0 +1,72 @@
+.Price {
+  background: white;
+  padding: 40px 10px 40px;
+  width: 270px;
+  box-sizing: border-box;
+}
+
+.Price__button {
+  margin:25px 30px 0;
+  width: calc(100% - 60px);
+}
+
+.Price__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.Price__title:after {
+  content: "";
+  width: 68px;
+  height: 4px;
+  background: black;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.Price__cost {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 46px;
+}
+
+.Price__description {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.Price__number {
+  font-weight: bold;
+}
+
+.Price_color_green .Price__number {
+  color:#42B753;
+}
+
+.Price_color_green .Price__title:after {
+  background: #42B753;
+}
+
+.Price_color_blue .Price__number {
+  color:#0FB0ED;
+}
+
+.Price_color_blue .Price__title:after {
+  background: #0FB0ED;
+}
+
+.Price_color_orange .Price__number {
+  color:#F99D39;
+}
+
+.Price_color_orange .Price__title:after {
+  background: #F99D39;
+}

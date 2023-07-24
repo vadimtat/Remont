@@ -1,0 +1,73 @@
+.Button {
+  border: none;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Button_size_medium {
+  padding: 0 25px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.Button_size_big {
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 70px;
+  font-size: 18px;
+}
+
+.Button_width_full {
+  width: 100%;
+}
+
+.Button_color_red {
+  background: red;
+  color: white;
+}
+
+.Button_color_orange {
+  background: #F99D39;
+  color: white;
+}
+
+.Button_color_green {
+  background: #42B753;
+  color: white;
+}
+
+.Button_color_blue {
+  background: #0FB0ED;
+  color: white;
+}
+
+.Button_view_ghost {
+  font-weight: bold;
+}
+
+.Button_view_ghost.Button_color_red {
+  color: red;
+  background: transparent;
+}
+
+.Button_view_ghost.Button_color_orange {
+  background: transparent;
+  color: #F99D39;
+}
+
+.Button_view_ghost.Button_color_green {
+  background: transparent;
+  color: #42B753;
+}
+
+.Button_view_ghost.Button_color_blue {
+  background: transparent;
+  color: #0FB0ED;
+}
+
+.Button_text-transform_uppercase {
+  text-transform: uppercase;
+}

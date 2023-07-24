@@ -1,0 +1,23 @@
+.Footer {
+  background: rgba(0, 0, 0, 0.87);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+.Footer__copyright {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  color: white;
+  max-width: 768px;
+  justify-content: space-between;
+}
+
+.Footer__name {
+  text-align: left;
+}
+
+.Footer__addres {
+  text-align: right;
+}

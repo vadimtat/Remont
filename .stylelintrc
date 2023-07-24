@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "block-opening-brace-space-before": "always",
+    "block-closing-brace-newline-after": "always",
+    "rule-empty-line-before": "always",
+    "indentation": 2
+  }
+}
